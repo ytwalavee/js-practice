@@ -1,2 +1,8 @@
-# js-practice
-A collection of practice projects to enhance my HTML, CSS and JavaScript skills.
+# Practice Projects
+
+This repository contains various practice projects to enhance my skills in HTML, CSS and JavaScript.
+
+## More Practice Projects Coming Soon!
+
+Stay tuned for more projects as I continue to learn and grow my skills.
+
