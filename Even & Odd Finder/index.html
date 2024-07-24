@@ -1,0 +1,33 @@
+<!--Design a basic application to find Even and Odd number-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Even & Odd Finder</title>
+</head>
+
+<body>
+	<center>
+	<h1>Even & Odd Finder</h1><hr>
+	<form>
+		<h2>Enter your number for varify that it's even or odd</h2><br>
+		<input type="number" id="user" oninput="stp()"><br><br>
+		
+	</form>
+	<h3 id= "output"></h3>
+	</center>
+
+	<script>
+		function stp(){
+			var x = document.getElementById("user").value;
+			if (x == "") {document.getElementById("output").innerHTML = "Please enter a number";
+			} else {
+			  var result = x%2=="0" ? (" is a even number") : (" is a odd number");
+			  document.getElementById("output").innerHTML = (x+result);
+			  return false;
+			}
+		}
+	</script>
+
+</body>
+</html>
